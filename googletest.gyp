@@ -7,6 +7,12 @@
         '.',
         'include',
       ],
+      'direct_dependent_settings': {
+        'include_dirs': [
+          '.',
+          'include',
+        ],
+      },
       'sources': [
         'include/gtest/gtest-death-test.h',
         'include/gtest/gtest-message.h',
